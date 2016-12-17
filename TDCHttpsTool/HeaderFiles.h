@@ -12,6 +12,7 @@
 #import "AFNetworking"
 #import "Reachability"
 #import "SAMKeychain"
+#import "TDCHttpsTool.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 
 #endif /* HeaderFiles_h */
