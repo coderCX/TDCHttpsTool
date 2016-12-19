@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'TDCHttpsTool'
-    s.version      = '1.0.4'
+    s.version      = '1.0.5'
     s.summary      = '一套适用于今日城市的网络基础库'
     s.homepage     = 'https://github.com/coderCX/TDCHttpsTool'
     s.license      = 'MIT'
@@ -11,11 +11,16 @@ Pod::Spec.new do |s|
     s.resource     = 'TDCHttpsTool/*'
     s.requires_arc = true
 
-    s.public_header_files = 'TDCHttpsTool/HeaderFiles.h'
-    s.source_files = 'TDCHttpsTool/HeaderFiles.h' 
+    s.public_header_files = 'TDCHeader.h'
+    s.source_files = 'TDCHeader.h' 
 
     s.dependency  'AFNetworking'
     s.dependency  'SDWebImage'
     s.dependency  'SAMKeychain'
     s.dependency  'Reachability'
+
+    #s.prefix_header_contents = "#import <AFNetworking/AFNetworking.h>"
+    #s.prefix_header_contents = "#import <SDWebImage/UIImageView+WebCache.h>"
+    #s.prefix_header_contents = "#import <SAMKeychain/SAMKeychain.h>"
+    #s.prefix_header_contents = "#import <Reachability/Reachability.h>"
 end
