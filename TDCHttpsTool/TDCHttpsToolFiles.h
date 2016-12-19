@@ -1,18 +1,17 @@
 //
-//  HeaderFiles.h
+//  TDCHttpsToolFiles.h
 //  CityLove
 //
-//  Created by chengxi on 2016/12/16.
+//  Created by chengxi on 2016/12/19.
 //  Copyright © 2016年 chengxi. All rights reserved.
 //
 
-#ifndef HeaderFiles_h
-#define HeaderFiles_h
+#ifndef TDCHttpsToolFiles_h
+#define TDCHttpsToolFiles_h
 
 #import "AFNetworking"
 #import "Reachability"
 #import "SAMKeychain"
-#import "TDCHttpsTool.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 
-#endif /* HeaderFiles_h */
+#endif /* TDCHttpsToolFiles_h */
