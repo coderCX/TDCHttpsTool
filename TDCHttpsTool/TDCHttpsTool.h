@@ -9,9 +9,11 @@
 #import <Foundation/Foundation.h>
 #import "Singleton.h"
 #import "AFNetworking.h"
-#import "UIImageView+WebCache.h"
 #import "TDC_Device.h"
 #import "TDC_Person.h"
+#import "Reachability"
+#import "SAMKeychain"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 // 基础参数Base节点Key
 #define Key_Req_Base            @"base"
